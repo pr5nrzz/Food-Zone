@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 
-const Header = () => {
+const Header = props => {
     return (
         <>
             <header className={styles.header}>
@@ -12,7 +12,7 @@ const Header = () => {
                             </a>
                             <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                                 <li>
-                                    <a href="#" className="text-white text-decoration-none">
+                                    <a href="#" className="text-white text-decoration-none" onClick={props.onShowCart}>
                                         <i className="bi bi-cart px-2"></i>
                                         <small>0</small>
                                     </a>
