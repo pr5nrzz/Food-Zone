@@ -1,0 +1,16 @@
+.addButton {
+    padding: 0.5rem 2rem;
+    border: none;
+    background: #A0522D;
+    border-radius: 25px;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.addButton:hover,
+.addButton:active {
+    background-color: saddlebrown;
+    border-color: saddlebrown;
+    color: white;
+}
